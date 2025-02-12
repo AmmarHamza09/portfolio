@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Ammar",
+  lastName: "Hamza",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Video Editor",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Karachi", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Urdu"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -17,8 +17,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I am a video editor dedicated to crafting compelling visuals and impactful storytelling. I explore the art of post-production, the latest in editing technology, and the creative process behind great video content.
     </>
   ),
 };
@@ -29,7 +28,7 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/AmmarHamza09",
   },
   {
     name: "LinkedIn",
@@ -44,7 +43,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "ammarhamza112233@gmail.com",
   },
 ];
 
@@ -52,11 +51,10 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Video Editor & Visual Storyteller</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Ammar Hamza, a video editor turning raw footage into engaging, high-impact visuals for brands, social media, and cinematic content.
     </>
   ),
 };
@@ -81,9 +79,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Ammar Hamza is a Pakistan-based video editor with a passion for crafting compelling narratives through seamless editing and visual storytelling. His work spans post-production, motion graphics, and the intersection of creativity and technology.
       </>
     ),
   },
@@ -92,42 +88,40 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Onvid Studio",
+        timeframe: "2024 - Present",
+        role: "Senior Video Editor",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Edited and optimized video content for Onvid Studio, enhancing viewer engagement by 20% and improving rendering efficiency by 30%.
           </>,
           <>
             Led a cross-functional team to launch a new product line, contributing to a 15% increase
             in overall company revenue.
           </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          // {
+          //   src: "/images/projects/project-01/cover-01.jpg",
+          //   alt: "Once UI Project",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
+      {
+        company: "Self Employeed",
+        timeframe: "2020 - present",
+        role: "Video Editor",
+        achievements: [
+          <>
+            Developed a video editing workflow that unified the brand’s visual style across multiple platforms, enhancing consistency by 40%.
+          </>,
+          // <>
+          //   Led a cross-functional team to launch a new product line, contributing to a 15% increase
+          //   in overall company revenue.
+          // </>,
         ],
         images: [],
       },
@@ -138,12 +132,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "Superior University Lahore",
         description: <>Studied software engineering.</>,
       },
       {
         name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        description: <>Studied online video editing tools.</>,
       },
     ],
   },
@@ -152,18 +146,18 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "DaVinci Resolve",
+        description: <>Able to edit and grade in DaVinci Resolve with exceptional speed and precision.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/projects/project-01/DaVinci-1.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/projects/project-01/DaVinci-2.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -171,12 +165,25 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Adobe Premier Pro",
+        description: <>Creating next-gen video content with Adobe Premiere Pro, advanced editing techniques, and seamless post-production workflows.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-01/Premier-Pro-1.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Capcut",
+        description: <>Harnessing the power of CapCut to craft engaging videos with dynamic edits and smooth transitions.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/Capcut-1.png",
             alt: "Project image",
             width: 16,
             height: 9,

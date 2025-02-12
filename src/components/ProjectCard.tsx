@@ -9,6 +9,7 @@ import {
   SmartLink,
   Text,
 } from "@/once-ui/components";
+import { VideoCarousel } from "@/once-ui/components/VideoCrousal";
 
 interface ProjectCardProps {
   href: string;
@@ -32,12 +33,14 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <Column fillWidth gap="m">
-      <Carousel
+      {/* <Carousel
         sizes="(max-width: 960px) 100vw, 960px"
         images={images.map((image) => ({
           src: image,
           alt: title,
         }))}
+      /> */}
+      <VideoCarousel
       />
       <Flex
         mobileDirection="column"
